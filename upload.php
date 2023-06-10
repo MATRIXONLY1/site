@@ -7,7 +7,7 @@ if(isset($_FILES['file'])) {
 
  // Allow all file extensions
  if($fileType != "php" && $fileType != "html" && $fileType != "css"
- && $fileType != "js" && $fileType != "txt" && $fileType != "pdf") {
+ && $fileType != "js" && $fileType != "py" && $fileType != "pdf") {
      $uploadOk = 0;
  }
 
